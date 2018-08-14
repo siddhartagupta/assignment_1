@@ -1,0 +1,7 @@
+body {
+    margin-top: 125px;
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
