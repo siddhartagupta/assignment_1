@@ -1,3 +1,11 @@
+.header .navbar-default{
+  background-color: #7278f3;
+  margin-bottom: 0px;
+  border: 1px solid #7278f3
+}
+.navbar-nav>li>a {
+    color: white !important;
+}
 .first{
   background-color:#7278f3;
   width: 100%;
