@@ -1,7 +1,13 @@
 .header .navbar-default{
-  background-color: #7278f3;
+  background-color: #6b5aed;
   margin-bottom: 0px;
-  border: 1px solid #7278f3
+  border: 1px solid #6b5aed;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right:0;
+  margin: auto;
+  z-index: 9;s
 }
 .navbar-nav>li>a {
     color: white !important;
@@ -13,8 +19,12 @@
   border-bottom-left-radius:30%;
   border-bottom-right-radius:30%;
 }
+.first img{
+  width: 560px;
+  height: 257px;
+}
 .padding-100{
-	padding-left: 150px;
+	/*padding-left: 150px;*/
 	padding-top:50px;
 }
 .width-150{
@@ -69,6 +79,7 @@
 }
 .laptop img{
   width: 600px;
+  margin-left: 6px;
 }
 .thirld{
   background-color:#699dfb;
@@ -86,18 +97,24 @@
   margin-right: 15px;
 }
 .thirld a{
-  color: blue;
+  color: black;
 }
+.thirld img{
+  width: 360px;
+}
+
+
 .fourth{
   background-color:white;
   width: 100%;
-  height: 415px;
+  height: 600px;
   border-bottom-left-radius:30%;
   border-bottom-right-radius:30%;
   margin-bottom: 35px;
 }
 .fourth img{
   margin-left: 150px;
+  width: 478px;
 }
 .fourt a{
   text-decoration: none;
@@ -120,6 +137,9 @@
 }
 .fifth p{
   margin-top: 108px;
+}
+.fifth h6{
+  font-weight: bold;
 }
 .six{
   background-color:#7278f3;
@@ -144,11 +164,11 @@
 .seventh{
   background-color:white;
   width: 100%;
-  height: 415px;
+  height: 700px;
 }
 .seventh img {
   margin-left: -163px;
-  width: 446px;
+  width: 588px;
 }
 .seventh h6{
   color:#000000ad;
@@ -162,18 +182,25 @@
   padding-left: 25px;
 }
 .bottom_ar{
-  background-color:black;
+  background-color:#333131;
   width: 100%;
-  height: 415px;
+  height: 260px;
   border-top-left-radius: 30%;
   border-top-right-radius: 30%;
 }
-.bottom_ar h3{
+.bottom_ar h5{
   color: white;
   font-weight: bold;
-  text-align: center;
 }
-.bottom_ar h4{
+.bottom_ar h6{
   color: white;
-  text-align: center;
+}
+.margin_top_four {
+  margin-top: 65px;
+}
+.mg-tp-50{
+  margin-top: 50px;
+}
+.mg-tp-60{
+  margin-top: 60px;
 }
